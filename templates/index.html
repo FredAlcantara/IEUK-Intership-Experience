@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sensor Data Dashboard</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sensor Data Dashboard</h1>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Timestamp</th>
+                <th>Temperature</th>
+                <th>Humidity</th>
+                <th>Pressure</th>
+                <th>Moisture</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ latest_data[1] }}</td>
+                <td>{{ latest_data[2] }} °C</td>
+                <td>{{ latest_data[3] }} %</td>
+                <td>{{ latest_data[4] }}</td>
+                <td>{{ latest_data[5] }} %</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
