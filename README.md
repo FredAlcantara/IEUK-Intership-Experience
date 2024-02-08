@@ -20,13 +20,13 @@ Thonny IDE: `I2C`, `Pin`, `ADC`, `BME280`, `urequest`, `ujson` & `utime`.
 XMAPP will be required to access your local database, the following *[link](https://www.apachefriends.org/download.html)* is the site where to download XMAPP if have not done so. 
 Open XMAPP and active Apach and MySQL, afterwards download the SQL file found *[here](https://github.com/FredAlcantara/IEUK-Intership-Experience/blob/main/sensor_sql.sql)* and import it in your local database within the import tab.
 
-**NOTE: The following code below will need to be amended the users credentials to make a connection with the users local database.** 
+**NOTE: The following code below will need to be amended the users credentials to make a connection with the users local database. This code can be found in `config.py`** 
 > HOST = os.getenv('DATABASE_HOST')
-
+> 
 > DATABASE = os.getenv('DATABASE_NAME')
-
+> 
 > USER = os.getenv('DATABASE_USER')
-
+> 
 > PASSWORD = os.getenv('DATABASE_PASSWORD')
 
 ## Execution 
