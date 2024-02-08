@@ -32,6 +32,7 @@ Open XMAPP and active Apach and MySQL. Afterwards download the SQL file found *[
 Any IDE can be used to run the program, however, Thonny is necessary for the micro-controller(RPI) as it contains built-in libraries which can be found within the manage packages.
 Once everything is ready and setup, run the device in Thonny and it should automatically start sending data in your local database.
 Afterwards run `app.py` by simply typing `py app.py` or `python app.py` within your terminal/console. An address should appear within your terminal/console and , and upon accessing it, a web page should be presented showcasing your recorded data.
+**NOTE: Make sure the soil sensor is placed deep enough where reading can be collected.**
 
 ## Purpose 
 In our current society, we enjoy the convenience of having almost everything accessible, including the delivery of groceries such as vegetables and fruits. However, this convenience also has a negative impact on the environment, mainly due to transportation emissions and excessive packaging. Utilising the system created promotes sustainable agriculture practices and the reduction of carbon emissions.
