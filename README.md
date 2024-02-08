@@ -22,8 +22,11 @@ Open XMAPP and active Apach and MySQL, afterwards download the SQL file found *[
 
 **NOTE: The following code below will need to be amended the users credentials to make a connection with the users local database.** 
 > HOST = os.getenv('DATABASE_HOST')
+
 > DATABASE = os.getenv('DATABASE_NAME')
+
 > USER = os.getenv('DATABASE_USER')
+
 > PASSWORD = os.getenv('DATABASE_PASSWORD')
 
 ## Execution 
